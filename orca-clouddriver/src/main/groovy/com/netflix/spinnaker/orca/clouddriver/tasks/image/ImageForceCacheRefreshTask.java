@@ -59,6 +59,6 @@ public class ImageForceCacheRefreshTask extends AbstractCloudProviderAwareTask i
 
   @Override
   public long getTimeout() {
-    return TimeUnit.MINUTES.toMillis(5);
+    return TimeUnit.MINUTES.toMillis(20);
   }
 }
